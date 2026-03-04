@@ -4,9 +4,7 @@ name: CI and testing
 #Trigger to run the workflow
 on:
     push:
-        branches: [master, main, **]
     pull_request:
-        branches: [master, main, **]
 
 #job to run
 jobs:
@@ -22,14 +20,13 @@ jobs:
             #step 2: set up node.js environment on runner
             - name: Setup Node.ks
               uses: actions/setup-node@v4
-              with: 
-                node-version: "22"
-            
+              with:
+                  node-version: "22"
+
             #step 3: install the repo's dependencies from package.json
             - name: Install dependencies
               run: npm install
-            
+
             #step 4: run the unit and integration tests
             - name: Run tests
               run: npm test
-             
