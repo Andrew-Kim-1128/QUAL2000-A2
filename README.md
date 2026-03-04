@@ -1,9 +1,9 @@
 # QUAL2000-A2: Event Check-in and Attendance console app
 
-# Install and operation
+## Install and operation
 
 Install using: npm install
-operation: npm run start -- (command)
+Usage: npm run start -- (command)
 
 ## Commands:
 
