@@ -3,6 +3,7 @@
 ## Install and operation
 
 Install using: npm install
+
 Usage: npm run start -- (command)
 
 ## Commands:
