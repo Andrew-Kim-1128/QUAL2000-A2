@@ -1,12 +1,11 @@
-# QUAL2000-A2
+# QUAL2000-A2: Event Check-in and Attendance console app
 
-# Event Check-in and Attendance console app
+# Install and operation
 
-## Install using: npm install
+Install using: npm install
+operation: npm run start -- (command)
 
-## operation: npm run start -- <command>
-
-## commands:
+## Commands:
 
     create-event <id> "<name>" <yyyy-mm-dd> [capacity]
     register     <eventId> <email> "<name>"
@@ -14,12 +13,12 @@
     report       <eventId>
     list-events
 
-## example commands:
+## Example commands:
 
     npm run start -- create-event e1 "code-athon" 2026-04-20 10
     npm run start -- register e1 test@example.com "testy"
 
-## test command:
+## Test command:
 
     npm test
 
