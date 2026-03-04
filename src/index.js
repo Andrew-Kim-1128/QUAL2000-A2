@@ -11,6 +11,7 @@ const DB_PATH = process.env.DB_PATH || path.join(process.cwd(), "data", "db.json
 // prints user instructions
 const usage = () => {
     console.log(`
+        usage: npm run start -- <command>
         user commands: 
             create-event <id> "<name>" <yyyy-mm-dd> [capacity]
             register     <eventId> <email> "<name>"
